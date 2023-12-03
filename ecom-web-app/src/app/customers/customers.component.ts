@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {NgForOf} from "@angular/common";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-customers',
@@ -14,12 +15,15 @@ import {NgForOf} from "@angular/common";
 export class CustomersComponent implements OnInit{
   customers: any;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
     this.http.get('http://localhost:9999/customer-service/customers?projection=fullCustomer').subscribe(data => {
-      console.log(data);
       this.customers = data;
     });
+  }
+
+  onGetOrders(customer: any) {
+    this.router.navigate([`/orders/${customer.id}`]);
   }
 }
