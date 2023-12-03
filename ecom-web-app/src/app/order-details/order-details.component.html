@@ -40,6 +40,7 @@
                   <th>Quantity</th>
                   <th>Price</th>
                   <th>Discount</th>
+                  <th>Subtotal</th>
                 </tr>
               </thead>
               <tbody>
@@ -49,7 +50,12 @@
                   <td>{{ item.quantity }}</td>
                   <td>{{ item.price | number: ".2" }}</td>
                   <td>{{ item.discount | number: ".2" }}</td>
+                  <td>{{ item.amount | number : ".2" }}</td>
                 </tr>
+                <tr>
+                  <td colspan="4"></td>
+                  <td>Total</td>
+                  <td>{{order.totalAmount | number: ".2"}}</td>
               </tbody>
             </table>
           </div>

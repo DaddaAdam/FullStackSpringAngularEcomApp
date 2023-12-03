@@ -18,6 +18,7 @@ import {DatePipe, DecimalPipe, JsonPipe, NgForOf} from "@angular/common";
 export class OrderDetailsComponent implements OnInit{
   order: any;
   orderId!: number;
+  orderItems!: [];
   constructor(private http: HttpClient, private router: Router, private activatedRoute: ActivatedRoute) {
     this.orderId =  this.activatedRoute.snapshot.params['orderId'];
   }

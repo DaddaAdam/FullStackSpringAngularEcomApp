@@ -27,4 +27,8 @@ public class Order {
     private Customer customer;
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<ProductItem> productItems;
+
+    public double getTotalAmount() {
+        return productItems.stream().mapToDouble(ProductItem::getAmount).sum();
+    }
 }
