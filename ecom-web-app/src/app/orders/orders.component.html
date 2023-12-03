@@ -16,7 +16,7 @@
       <td>{{order.createdAt | date:'short'  }}</td>
       <td>{{order.status}}</td>
       <td>
-        <button class="btn btn-success">Details</button>
+        <button class="btn btn-success" (click)="onGetOrderDetails(order)">Details</button>
       </td>
     </tr>
     </tbody>
