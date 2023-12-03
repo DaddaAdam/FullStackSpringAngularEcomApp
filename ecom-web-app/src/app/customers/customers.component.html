@@ -1,0 +1,21 @@
+<div class="container">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Orders</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of customers._embedded.customers">
+      <td>{{product.id}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.email}}</td>
+    <td>
+    <button class="btn btn-success">Orders</button>
+    </td>
+    </tbody>
+  </table>
+</div>
