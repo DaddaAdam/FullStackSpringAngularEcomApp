@@ -61,3 +61,35 @@ Application web full-stack, résultat de l'activité pratique n°4 du cours d'ar
 - Récupération des secrets
 
 <img width="1680" alt="Screenshot 2023-12-03 at 21 36 22" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/c9defd20-601d-480b-a5d4-619a73674d74">
+
+### La requête depuis la gateway qui démontre que tous les services marchent
+
+<img width="1680" alt="Screenshot 2023-12-03 at 16 30 03" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/71034d5f-c329-4134-b09b-ae8096c78024">
+
+## Développement du Frontend en Angular
+
+### Ajout de CORS dans le backend
+
+<img width="1680" alt="Screenshot 2023-12-03 at 21 40 45" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/6227ca71-6ccd-4b2d-9acd-6017db13acc6">
+
+### Intégration du Module HTTP client dans les dépendances Angular
+
+<img width="1680" alt="Screenshot 2023-12-03 at 21 41 54" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/24a9e71b-2699-4568-985f-b4ecbc7836fa">
+
+### Développement des Composants UI
+
+- Products component
+
+<img width="1680" alt="Screenshot 2023-12-03 at 20 41 54" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/2903cebe-4d55-417d-b51e-9d35ef60764f">
+  
+- Customers component
+
+<img width="1680" alt="Screenshot 2023-12-03 at 20 42 02" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/3fa74810-3a83-47dd-87b0-89032bc30f06">
+
+- Orders component
+
+<img width="1680" alt="Screenshot 2023-12-03 at 20 42 35" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/b3783600-cb24-4c36-838f-af43baa97c69">
+
+- Order-details component
+
+<img width="1680" alt="Screenshot 2023-12-03 at 20 42 51" src="https://github.com/DaddaAdam/FullStackSpringAngularEcomApp/assets/77986052/e9dfe4c6-6ce0-46a9-bd7b-c7db5bc86548">
